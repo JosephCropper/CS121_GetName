@@ -7,7 +7,7 @@ int main(){
     int rng = rand() % 100;
     int guess;
     while (1){
-        printf("Guess the number: ");
+        printf("Guess the number (0 - 99): ");
         scanf("%d", &guess);
         if (guess == rng){
             printf("Got it! Number was: %d", rng);
